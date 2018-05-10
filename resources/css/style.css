@@ -93,14 +93,13 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  width: 70%
+  width: 70%;
 }
 
 nav a {
   padding-right: 16px;
   padding-left: 16px;
   color:
-
 }
 
 /* Main Banner */
@@ -345,7 +344,6 @@ video {
   flex-direction: column;
   width: 40%;
   padding-left: 16px;
-  border-left: .5px solid grey;
 }
 
 .list-thesis {
@@ -378,3 +376,32 @@ video {
 }
 
 /* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid LightGray;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.copyright {
+  width: 30%;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 70%;
+  padding-right: 24px;
+}
+
+.footer-links a {
+  display: flex;
+  padding-left: 16px;
+}
