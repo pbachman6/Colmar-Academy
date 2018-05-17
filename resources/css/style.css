@@ -28,10 +28,6 @@ h4 {
   font-size: 1.10rem;
 }
 
-h5 {
-
-}
-
 p {
   font-size: 1rem;
   font-family: Assistant;
@@ -448,3 +444,12 @@ footer {
   display: flex;
   padding-left: 16px;
 }
+
+/* Media Queries */
+/* Having trouble with media quereies and how to design from desktop to mobile, would appreciate further advice here. */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
